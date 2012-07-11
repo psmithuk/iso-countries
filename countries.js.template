@@ -1,0 +1,26 @@
+(function() {
+
+  var iso = {};
+
+  // global on the server, window in the browser
+  var root = this,
+    previous_iso = root.iso;
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = iso;
+  } else {
+    root.iso = iso;
+  }
+
+  iso.noConflict = function() {
+    root.iso = previous_iso;
+    return iso;
+  };
+
+  // Current version.
+  iso.VERSION = '0.0.1';
+
+  iso.countries = %%countries%%;
+  iso.currencies = %%currencies%%;
+
+}());

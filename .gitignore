@@ -1,0 +1,9 @@
+.DS_Store
+.monitor
+_*
+node_modules
+npm-debug.log
+log.txt
+config/*
+!config/sample.config.json
+tmp

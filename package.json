@@ -1,0 +1,39 @@
+{
+  "name": "umg-iso-countries",
+  "description": "UMG ISO Countries",
+  "version": "0.0.1",
+  "author": "Paul Smith <Paul.Smith@umusic.com>",
+  "private": true,
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "async": "",
+    "colors": "0.5.x",
+    "commander": "",
+    "jade": "*",
+    "request": "*",
+    "underscore": "1.x.x",
+    "uglify-js": ""
+  },
+  "devDependencies": {
+    "stylus": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "files": [
+    ""
+  ],
+  "repository": {
+    "url": ""
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib"
+  },
+  "main": "convert.js",
+  "scripts": {
+    "start": "make convert",
+    "test": "make test"
+  }
+}
