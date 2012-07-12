@@ -47,4 +47,25 @@
       }
     }
   };
+  
+  iso.findCountriesByCountryCodedTLD = function(code) {
+    if(!code) return undefined;
+    if(code.charAt(0) !== '.') code = '.' + code;
+
+    var results = [];
+
+    for (var prop in iso.countries) {
+      if (iso.countries.hasOwnProperty(prop)) {
+        if (iso.countries[prop]['tld'] == code || iso.countries[prop]['tldsecondary'] == code) {
+          results.push(iso.countries[prop]);
+        }
+      }
+    }
+    if(!results.length) return undefined;
+    return results;
+  };
+
+  iso.findCountriesByTLD = iso.findCountriesByCountryCodedTLD;
+
+
 }());

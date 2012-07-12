@@ -85,4 +85,16 @@ describe('ISO find methods', function() {
     should.not.exist(iso.findCountryByName('Fake_Nation'));
   });
 
+  it('should have a `findCountriesByCountryCodedTLD` function', function() {
+    iso.findCountriesByCountryCodedTLD.should.be.a('function');
+    iso.findCountriesByTLD.should.be.a('function');
+    iso.findCountriesByTLD.should.be.eql(iso.findCountriesByCountryCodedTLD);
+    iso.findCountriesByCountryCodedTLD('.af').should.eql([iso.countries['AF']]);
+    iso.findCountriesByTLD('.af').should.eql([iso.countries['AF']]);
+    iso.findCountriesByCountryCodedTLD('af').should.eql([iso.countries['AF']]);
+    should.not.exist(iso.findCountriesByCountryCodedTLD(''));
+    should.not.exist(iso.findCountriesByCountryCodedTLD('_'));
+    iso.findCountriesByCountryCodedTLD('yu').should.have.length(3);
+  });
+
 });
