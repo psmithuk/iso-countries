@@ -2,12 +2,9 @@
  * Module dependencies.
  */
 
-var util = require('util'),
-  colors = require('colors'),
+var colors = require('colors'),
   fs = require('fs'),
-  events = require('events'),
   _ = require('underscore'),
-  async = require('async'),
   program = require('commander'),
   request = require('request');
 
@@ -17,7 +14,7 @@ var inputfile = program.inputfile;
 var outputfile = program.outputfile;
 
 if(!inputfile) inputfile = 'isocountry_detailed.txt';
-if(!outputfile) outputfile = 'countries.js';
+if(!outputfile) outputfile = 'dist/countries.js';
 
 var headers = [
   'Sort Order',
@@ -97,24 +94,14 @@ fs.readFile(__dirname + '/' + 'isocountry_detailed.txt', function(err, data) {
     }
   });
 
-  // console.log(JSON.stringify(currenciesByISO, null, 2));
-  // console.log(JSON.stringify(countriesByISO, null, 2));
-
-  // console.log(_.filter(countriesByISO, function(c) {
-  //   return c.tel.indexOf('and') > -1;
-  //   // return c.tldsecondary || c.currencysecondary;
-  // }));
-
   loadTemplate(function(err, template) {
     if(err || !template) {
       console.log('Failed to load template'.red);
       console.log(err);
     }
-    template = template.replace('%%countries%%', JSON.stringify(countriesByISO, null, 2));
-    template = template.replace('%%currencies%%', JSON.stringify(currenciesByISO, null, 2));
+    template = template.replace('\'%%countries%%\'', JSON.stringify(countriesByISO, null, 2));
+    template = template.replace('\'%%currencies%%\'', JSON.stringify(currenciesByISO, null, 2));
     
-    // console.log(outputfile);
-  
     fs.writeFile(outputfile, template, function(err) {
       if(err) console.log('Failed save'.red);
       console.log('Written %s'.green, outputfile);

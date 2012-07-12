@@ -4,21 +4,21 @@ REPORTER = spec
 CWD := $(shell pwd)
 UGLIFY = $(CWD)/node_modules/uglify-js/bin/uglifyjs
 
+
+.PHONY: test
 test:
 	@NODE_ENV=test mocha \
 		--require should \
 		--reporter $(REPORTER) \
-		--timeout 5000 \
-		--growl \
-		test/index.js
+		$(TESTS)
 
-.PHONY: build
-build:
-
-	node convert.js \
+.PHONY: dist
+dist:
+	node dist.js \
 		--inputfile isocountry_detailed.txt \
-		--outputfile countries.js
+		--outputfile dist/countries.js
 
-	$(UGLIFY) countries.js > countries.min.js
+	$(UGLIFY) dist/countries.js > dist/countries.min.js
 
-.PHONY: test
+all: dist test
+.PHONY: all

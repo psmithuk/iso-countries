@@ -1,1 +1,1 @@
-module.exports = require('./countries');
+module.exports = require('./dist/countries.js');

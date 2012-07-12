@@ -1,29 +1,23 @@
 {
-  "name": "umg-iso-countries",
-  "description": "UMG ISO Countries",
+  "name": "iso-countries",
+  "description": "ISO Country and Currency Codes",
   "version": "0.0.1",
-  "author": "Paul Smith <Paul.Smith@umusic.com>",
-  "private": true,
+  "author": "Paul Smith <psmithuk@gmail.com>",
+  "private": false,
   "engines": {
     "node": ">= 0.6.0"
   },
   "dependencies": {
-    "async": "",
     "colors": "0.5.x",
     "commander": "",
-    "jade": "*",
     "request": "*",
     "underscore": "1.x.x",
     "uglify-js": ""
   },
   "devDependencies": {
-    "stylus": "*",
     "mocha": "*",
     "should": "*"
   },
-  "files": [
-    ""
-  ],
   "repository": {
     "url": ""
   },
@@ -33,7 +27,7 @@
   },
   "main": "convert.js",
   "scripts": {
-    "start": "make convert",
+    "start": "make build",
     "test": "make test"
   }
 }
