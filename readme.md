@@ -18,8 +18,23 @@ or
 
     npm install git@github.com:psmithuk/iso-countries.git
 
-
 In the browser just copy the file from `dist\countries.min.js` (skinny) or `dist\countries.js` (full-fat).
+
+## Building
+
+To create distributable files:
+
+  npm install
+  make dist
+
+To run the tests (requires `mocha` and `should`):
+
+  make test
+
+To run everything
+
+  make all
+  
 
 ## Usage
 
