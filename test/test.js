@@ -97,4 +97,18 @@ describe('ISO find methods', function() {
     iso.findCountriesByCountryCodedTLD('yu').should.have.length(3);
   });
 
+  it('should have a `findCountriesByType` function', function() {
+    iso.findCountriesByType.should.be.a('function');
+    iso.findCountriesByType('Independent State').length.should.above(0);
+  });
+
+  it('should have a `findCountriesByTypes` function', function() {
+    iso.findCountriesByTypes.should.be.a('function');
+    iso.findCountriesByType('Proto Independent State').length.should.eql(6);
+    iso.independentStates.should.be.eql(iso.findCountriesByType('Independent State'));
+    iso.independentStates.should.be.a('object');
+    iso.states.should.be.a('object');
+    iso.states.length.should.be.above(iso.independentStates.length);
+  });
+
 });

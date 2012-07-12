@@ -47,10 +47,10 @@
       }
     }
   };
-  
+
   iso.findCountriesByCountryCodedTLD = function(code) {
-    if(!code) return undefined;
-    if(code.charAt(0) !== '.') code = '.' + code;
+    if (!code) return undefined;
+    if (code.charAt(0) !== '.') code = '.' + code;
 
     var results = [];
 
@@ -61,11 +61,49 @@
         }
       }
     }
-    if(!results.length) return undefined;
+    if (!results.length) return undefined;
     return results;
   };
 
+
   iso.findCountriesByTLD = iso.findCountriesByCountryCodedTLD;
 
+  iso.findCountriesByType = function(type) {
+    var results = [];
+
+    for (var prop in iso.countries) {
+      if (iso.countries.hasOwnProperty(prop)) {
+        if (iso.countries[prop]['type'] == type) {
+          results.push(iso.countries[prop]);
+        }
+      }
+    }
+    if (!results.length) return undefined;
+    return results;
+  };
+
+
+  iso.findCountriesByTypes = function(types) {
+    if (typeof types == 'string') {
+      types = [types];
+    }
+
+    var results = [];
+
+    for (var prop in iso.countries) {
+      if (iso.countries.hasOwnProperty(prop)) {
+        for (var i = types.length - 1; i >= 0; i--) {
+          if (types[i] == iso.countries[prop]['type']) {
+            results.push(iso.countries[prop]);
+          }
+        }
+      }
+    }
+    if (!results.length) return undefined;
+    return results;
+  };
+
+  iso.independentStates = iso.findCountriesByType('Independent State');
+  iso.states = iso.findCountriesByTypes(['Independent State','Proto Independent State']);
 
 }());
