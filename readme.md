@@ -42,6 +42,8 @@ To run everything
 
 _TODO_ - add once finder methods are complete
 
+See tests for now. Sorry.
+
 ## License
 
 _TODO_
