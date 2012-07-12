@@ -24,17 +24,17 @@ In the browser just copy the file from `dist\countries.min.js` (skinny) or `dist
 
 To create distributable files:
 
-  npm install
-  make dist
+    npm install
+    make dist
 
 To run the tests (requires `mocha` and `should`):
 
-  make test
+    make test
 
 To run everything
 
-  make all
-  
+    make all
+
 
 ## Usage
 
