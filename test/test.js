@@ -62,7 +62,7 @@ describe('ISO Currency Codes', function() {
 
 });
 
-describe('ISO find methods', function() {
+describe('ISO Country find methods', function() {
   
   it('should have a `findCountryByCode` function', function() {
     iso.findCountryByCode.should.be.a('function');
@@ -109,6 +109,23 @@ describe('ISO find methods', function() {
     iso.independentStates.should.be.a('object');
     iso.states.should.be.a('object');
     iso.states.length.should.be.above(iso.independentStates.length);
+  });
+
+  it('should have a `getSimpleCountryList` function', function() {
+    iso.getSimpleCountryList.should.be.a('function');
+    iso.getSimpleCountryList().length.should.be.eql(193);
+    iso.getSimpleCountryList()[0].should.be.eql({ country: 'AF', name: 'Afghanistan' });
+    iso.getSimpleCountryList().pop().should.be.eql({ country: 'ZW', name: 'Zimbabwe' });
+  });
+
+});
+
+describe('ISO Currencies find methods', function() {
+
+  it('should have a `findCurrency` function', function() {
+    iso.findCurrency.should.be.a('function');
+    iso.findCurrency('GBP').countries.length.should.eql(1);
+    iso.findCurrency('USD').countries.length.should.eql(14);
   });
 
 });
