@@ -18,9 +18,7 @@
     "mocha": "*",
     "should": "*"
   },
-  "repository": {
-    "url": ""
-  },
+  "repository": "git://github.com/psmithuk/iso-countries",
   "directories": {
     "doc": "./doc",
     "lib": "./lib"
