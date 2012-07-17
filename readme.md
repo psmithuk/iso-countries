@@ -18,7 +18,7 @@ For use in Node.js:
 
 or
 
-    npm install git@github.com:psmithuk/iso-countries.git
+    npm install git://github.com/psmithuk/iso-countries
 
 In the browser just copy the file from `dist\countries.min.js` (skinny) or `dist\countries.js` (full-fat).
 
