@@ -114,8 +114,8 @@ describe('ISO Country find methods', function() {
   it('should have a `getSimpleCountryList` function', function() {
     iso.getSimpleCountryList.should.be.a('function');
     iso.getSimpleCountryList().length.should.be.eql(193);
-    iso.getSimpleCountryList()[0].should.be.eql({ country: 'AF', name: 'Afghanistan' });
-    iso.getSimpleCountryList().pop().should.be.eql({ country: 'ZW', name: 'Zimbabwe' });
+    iso.getSimpleCountryList()[0].should.be.eql({ value: 'AF', name: 'Afghanistan' });
+    iso.getSimpleCountryList().pop().should.be.eql({ value: 'ZW', name: 'Zimbabwe' });
   });
 
 });

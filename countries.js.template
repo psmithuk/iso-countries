@@ -109,7 +109,7 @@
   iso.getSimpleCountryList = function() {
     var results = iso.states.map(function(c) {
       return {
-        country: c.country,
+        value: c.value,
         name: c.name
       };
     });

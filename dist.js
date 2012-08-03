@@ -55,7 +55,7 @@ fs.readFile(__dirname + '/' + 'isocountry_detailed.txt', function(err, data) {
       var tlds = country['IANA Country Code TLD'].split(' and ');
 
       var obj = {
-        country: iso3166,
+        value: iso3166,
         name: country['Common Name'],
         formalname: country['Formal Name'],
         type: country['Type'],
@@ -83,10 +83,10 @@ fs.readFile(__dirname + '/' + 'isocountry_detailed.txt', function(err, data) {
               currenciesByISO[c] = {
                 currency: c,
                 name: country['ISO 4217 Currency Name'].split(' and ')[i],
-                countries: [obj.country]
+                countries: [obj.value]
               };
             } else {
-              currenciesByISO[c].countries.push(obj.country);
+              currenciesByISO[c].countries.push(obj.value);
             }
           }
         });

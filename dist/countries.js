@@ -21,7 +21,7 @@
 
   iso.countries = {
   "AF": {
-    "country": "AF",
+    "value": "AF",
     "name": "Afghanistan",
     "formalname": "Islamic State of Afghanistan",
     "type": "Independent State",
@@ -37,7 +37,7 @@
     "sort": "1"
   },
   "AL": {
-    "country": "AL",
+    "value": "AL",
     "name": "Albania",
     "formalname": "Republic of Albania",
     "type": "Independent State",
@@ -53,7 +53,7 @@
     "sort": "2"
   },
   "DZ": {
-    "country": "DZ",
+    "value": "DZ",
     "name": "Algeria",
     "formalname": "People's Democratic Republic of Algeria",
     "type": "Independent State",
@@ -69,7 +69,7 @@
     "sort": "3"
   },
   "AD": {
-    "country": "AD",
+    "value": "AD",
     "name": "Andorra",
     "formalname": "Principality of Andorra",
     "type": "Independent State",
@@ -85,7 +85,7 @@
     "sort": "4"
   },
   "AO": {
-    "country": "AO",
+    "value": "AO",
     "name": "Angola",
     "formalname": "Republic of Angola",
     "type": "Independent State",
@@ -101,7 +101,7 @@
     "sort": "5"
   },
   "AG": {
-    "country": "AG",
+    "value": "AG",
     "name": "Antigua and Barbuda",
     "formalname": "",
     "type": "Independent State",
@@ -117,7 +117,7 @@
     "sort": "6"
   },
   "AR": {
-    "country": "AR",
+    "value": "AR",
     "name": "Argentina",
     "formalname": "Argentine Republic",
     "type": "Independent State",
@@ -133,7 +133,7 @@
     "sort": "7"
   },
   "AM": {
-    "country": "AM",
+    "value": "AM",
     "name": "Armenia",
     "formalname": "Republic of Armenia",
     "type": "Independent State",
@@ -149,7 +149,7 @@
     "sort": "8"
   },
   "AU": {
-    "country": "AU",
+    "value": "AU",
     "name": "Coral Sea Islands",
     "formalname": "Coral Sea Islands Territory",
     "type": "Dependency",
@@ -165,7 +165,7 @@
     "sort": "204"
   },
   "AT": {
-    "country": "AT",
+    "value": "AT",
     "name": "Austria",
     "formalname": "Republic of Austria",
     "type": "Independent State",
@@ -181,7 +181,7 @@
     "sort": "10"
   },
   "AZ": {
-    "country": "AZ",
+    "value": "AZ",
     "name": "Nagorno-Karabakh",
     "formalname": "Nagorno-Karabakh Republic",
     "type": "Proto Independent State",
@@ -197,7 +197,7 @@
     "sort": "196"
   },
   "BS": {
-    "country": "BS",
+    "value": "BS",
     "name": "Bahamas, The",
     "formalname": "Commonwealth of The Bahamas",
     "type": "Independent State",
@@ -213,7 +213,7 @@
     "sort": "12"
   },
   "BH": {
-    "country": "BH",
+    "value": "BH",
     "name": "Bahrain",
     "formalname": "Kingdom of Bahrain",
     "type": "Independent State",
@@ -229,7 +229,7 @@
     "sort": "13"
   },
   "BD": {
-    "country": "BD",
+    "value": "BD",
     "name": "Bangladesh",
     "formalname": "People's Republic of Bangladesh",
     "type": "Independent State",
@@ -245,7 +245,7 @@
     "sort": "14"
   },
   "BB": {
-    "country": "BB",
+    "value": "BB",
     "name": "Barbados",
     "formalname": "",
     "type": "Independent State",
@@ -261,7 +261,7 @@
     "sort": "15"
   },
   "BY": {
-    "country": "BY",
+    "value": "BY",
     "name": "Belarus",
     "formalname": "Republic of Belarus",
     "type": "Independent State",
@@ -277,7 +277,7 @@
     "sort": "16"
   },
   "BE": {
-    "country": "BE",
+    "value": "BE",
     "name": "Belgium",
     "formalname": "Kingdom of Belgium",
     "type": "Independent State",
@@ -293,7 +293,7 @@
     "sort": "17"
   },
   "BZ": {
-    "country": "BZ",
+    "value": "BZ",
     "name": "Belize",
     "formalname": "",
     "type": "Independent State",
@@ -309,7 +309,7 @@
     "sort": "18"
   },
   "BJ": {
-    "country": "BJ",
+    "value": "BJ",
     "name": "Benin",
     "formalname": "Republic of Benin",
     "type": "Independent State",
@@ -325,7 +325,7 @@
     "sort": "19"
   },
   "BT": {
-    "country": "BT",
+    "value": "BT",
     "name": "Bhutan",
     "formalname": "Kingdom of Bhutan",
     "type": "Independent State",
@@ -341,7 +341,7 @@
     "sort": "20"
   },
   "BO": {
-    "country": "BO",
+    "value": "BO",
     "name": "Bolivia",
     "formalname": "Republic of Bolivia",
     "type": "Independent State",
@@ -357,7 +357,7 @@
     "sort": "21"
   },
   "BA": {
-    "country": "BA",
+    "value": "BA",
     "name": "Bosnia and Herzegovina",
     "formalname": "",
     "type": "Independent State",
@@ -373,7 +373,7 @@
     "sort": "22"
   },
   "BW": {
-    "country": "BW",
+    "value": "BW",
     "name": "Botswana",
     "formalname": "Republic of Botswana",
     "type": "Independent State",
@@ -389,7 +389,7 @@
     "sort": "23"
   },
   "BR": {
-    "country": "BR",
+    "value": "BR",
     "name": "Brazil",
     "formalname": "Federative Republic of Brazil",
     "type": "Independent State",
@@ -405,7 +405,7 @@
     "sort": "24"
   },
   "BN": {
-    "country": "BN",
+    "value": "BN",
     "name": "Brunei",
     "formalname": "Negara Brunei Darussalam",
     "type": "Independent State",
@@ -421,7 +421,7 @@
     "sort": "25"
   },
   "BG": {
-    "country": "BG",
+    "value": "BG",
     "name": "Bulgaria",
     "formalname": "Republic of Bulgaria",
     "type": "Independent State",
@@ -437,7 +437,7 @@
     "sort": "26"
   },
   "BF": {
-    "country": "BF",
+    "value": "BF",
     "name": "Burkina Faso",
     "formalname": "",
     "type": "Independent State",
@@ -453,7 +453,7 @@
     "sort": "27"
   },
   "BI": {
-    "country": "BI",
+    "value": "BI",
     "name": "Burundi",
     "formalname": "Republic of Burundi",
     "type": "Independent State",
@@ -469,7 +469,7 @@
     "sort": "28"
   },
   "KH": {
-    "country": "KH",
+    "value": "KH",
     "name": "Cambodia",
     "formalname": "Kingdom of Cambodia",
     "type": "Independent State",
@@ -485,7 +485,7 @@
     "sort": "29"
   },
   "CM": {
-    "country": "CM",
+    "value": "CM",
     "name": "Cameroon",
     "formalname": "Republic of Cameroon",
     "type": "Independent State",
@@ -501,7 +501,7 @@
     "sort": "30"
   },
   "CA": {
-    "country": "CA",
+    "value": "CA",
     "name": "Canada",
     "formalname": "",
     "type": "Independent State",
@@ -517,7 +517,7 @@
     "sort": "31"
   },
   "CV": {
-    "country": "CV",
+    "value": "CV",
     "name": "Cape Verde",
     "formalname": "Republic of Cape Verde",
     "type": "Independent State",
@@ -533,7 +533,7 @@
     "sort": "32"
   },
   "CF": {
-    "country": "CF",
+    "value": "CF",
     "name": "Central African Republic",
     "formalname": "",
     "type": "Independent State",
@@ -549,7 +549,7 @@
     "sort": "33"
   },
   "TD": {
-    "country": "TD",
+    "value": "TD",
     "name": "Chad",
     "formalname": "Republic of Chad",
     "type": "Independent State",
@@ -565,7 +565,7 @@
     "sort": "34"
   },
   "CL": {
-    "country": "CL",
+    "value": "CL",
     "name": "Chile",
     "formalname": "Republic of Chile",
     "type": "Independent State",
@@ -581,7 +581,7 @@
     "sort": "35"
   },
   "CN": {
-    "country": "CN",
+    "value": "CN",
     "name": "China, People's Republic of",
     "formalname": "People's Republic of China",
     "type": "Independent State",
@@ -597,7 +597,7 @@
     "sort": "36"
   },
   "CO": {
-    "country": "CO",
+    "value": "CO",
     "name": "Colombia",
     "formalname": "Republic of Colombia",
     "type": "Independent State",
@@ -613,7 +613,7 @@
     "sort": "37"
   },
   "KM": {
-    "country": "KM",
+    "value": "KM",
     "name": "Comoros",
     "formalname": "Union of Comoros",
     "type": "Independent State",
@@ -629,7 +629,7 @@
     "sort": "38"
   },
   "CD": {
-    "country": "CD",
+    "value": "CD",
     "name": "Congo, Democratic Republic of the (Congo – Kinshasa)",
     "formalname": "Democratic Republic of the Congo",
     "type": "Independent State",
@@ -645,7 +645,7 @@
     "sort": "39"
   },
   "CG": {
-    "country": "CG",
+    "value": "CG",
     "name": "Congo, Republic of the (Congo – Brazzaville)",
     "formalname": "Republic of the Congo",
     "type": "Independent State",
@@ -661,7 +661,7 @@
     "sort": "40"
   },
   "CR": {
-    "country": "CR",
+    "value": "CR",
     "name": "Costa Rica",
     "formalname": "Republic of Costa Rica",
     "type": "Independent State",
@@ -677,7 +677,7 @@
     "sort": "41"
   },
   "CI": {
-    "country": "CI",
+    "value": "CI",
     "name": "Cote d'Ivoire (Ivory Coast)",
     "formalname": "Republic of Cote d'Ivoire",
     "type": "Independent State",
@@ -693,7 +693,7 @@
     "sort": "42"
   },
   "HR": {
-    "country": "HR",
+    "value": "HR",
     "name": "Croatia",
     "formalname": "Republic of Croatia",
     "type": "Independent State",
@@ -709,7 +709,7 @@
     "sort": "43"
   },
   "CU": {
-    "country": "CU",
+    "value": "CU",
     "name": "Cuba",
     "formalname": "Republic of Cuba",
     "type": "Independent State",
@@ -725,7 +725,7 @@
     "sort": "44"
   },
   "CY": {
-    "country": "CY",
+    "value": "CY",
     "name": "Northern Cyprus",
     "formalname": "Turkish Republic of Northern Cyprus",
     "type": "Proto Independent State",
@@ -741,7 +741,7 @@
     "sort": "197"
   },
   "CZ": {
-    "country": "CZ",
+    "value": "CZ",
     "name": "Czech Republic",
     "formalname": "",
     "type": "Independent State",
@@ -757,7 +757,7 @@
     "sort": "46"
   },
   "DK": {
-    "country": "DK",
+    "value": "DK",
     "name": "Denmark",
     "formalname": "Kingdom of Denmark",
     "type": "Independent State",
@@ -773,7 +773,7 @@
     "sort": "47"
   },
   "DJ": {
-    "country": "DJ",
+    "value": "DJ",
     "name": "Djibouti",
     "formalname": "Republic of Djibouti",
     "type": "Independent State",
@@ -789,7 +789,7 @@
     "sort": "48"
   },
   "DM": {
-    "country": "DM",
+    "value": "DM",
     "name": "Dominica",
     "formalname": "Commonwealth of Dominica",
     "type": "Independent State",
@@ -805,7 +805,7 @@
     "sort": "49"
   },
   "DO": {
-    "country": "DO",
+    "value": "DO",
     "name": "Dominican Republic",
     "formalname": "",
     "type": "Independent State",
@@ -821,7 +821,7 @@
     "sort": "50"
   },
   "EC": {
-    "country": "EC",
+    "value": "EC",
     "name": "Ecuador",
     "formalname": "Republic of Ecuador",
     "type": "Independent State",
@@ -837,7 +837,7 @@
     "sort": "51"
   },
   "EG": {
-    "country": "EG",
+    "value": "EG",
     "name": "Egypt",
     "formalname": "Arab Republic of Egypt",
     "type": "Independent State",
@@ -853,7 +853,7 @@
     "sort": "52"
   },
   "SV": {
-    "country": "SV",
+    "value": "SV",
     "name": "El Salvador",
     "formalname": "Republic of El Salvador",
     "type": "Independent State",
@@ -869,7 +869,7 @@
     "sort": "53"
   },
   "GQ": {
-    "country": "GQ",
+    "value": "GQ",
     "name": "Equatorial Guinea",
     "formalname": "Republic of Equatorial Guinea",
     "type": "Independent State",
@@ -885,7 +885,7 @@
     "sort": "54"
   },
   "ER": {
-    "country": "ER",
+    "value": "ER",
     "name": "Eritrea",
     "formalname": "State of Eritrea",
     "type": "Independent State",
@@ -901,7 +901,7 @@
     "sort": "55"
   },
   "EE": {
-    "country": "EE",
+    "value": "EE",
     "name": "Estonia",
     "formalname": "Republic of Estonia",
     "type": "Independent State",
@@ -917,7 +917,7 @@
     "sort": "56"
   },
   "ET": {
-    "country": "ET",
+    "value": "ET",
     "name": "Ethiopia",
     "formalname": "Federal Democratic Republic of Ethiopia",
     "type": "Independent State",
@@ -933,7 +933,7 @@
     "sort": "57"
   },
   "FJ": {
-    "country": "FJ",
+    "value": "FJ",
     "name": "Fiji",
     "formalname": "Republic of the Fiji Islands",
     "type": "Independent State",
@@ -949,7 +949,7 @@
     "sort": "58"
   },
   "FI": {
-    "country": "FI",
+    "value": "FI",
     "name": "Finland",
     "formalname": "Republic of Finland",
     "type": "Independent State",
@@ -965,7 +965,7 @@
     "sort": "59"
   },
   "FR": {
-    "country": "FR",
+    "value": "FR",
     "name": "France",
     "formalname": "French Republic",
     "type": "Independent State",
@@ -981,7 +981,7 @@
     "sort": "60"
   },
   "GA": {
-    "country": "GA",
+    "value": "GA",
     "name": "Gabon",
     "formalname": "Gabonese Republic",
     "type": "Independent State",
@@ -997,7 +997,7 @@
     "sort": "61"
   },
   "GM": {
-    "country": "GM",
+    "value": "GM",
     "name": "Gambia, The",
     "formalname": "Republic of The Gambia",
     "type": "Independent State",
@@ -1013,7 +1013,7 @@
     "sort": "62"
   },
   "GE": {
-    "country": "GE",
+    "value": "GE",
     "name": "South Ossetia",
     "formalname": "Republic of South Ossetia",
     "type": "Proto Independent State",
@@ -1030,7 +1030,7 @@
     "currencysecondary": "GEL"
   },
   "DE": {
-    "country": "DE",
+    "value": "DE",
     "name": "Germany",
     "formalname": "Federal Republic of Germany",
     "type": "Independent State",
@@ -1046,7 +1046,7 @@
     "sort": "64"
   },
   "GH": {
-    "country": "GH",
+    "value": "GH",
     "name": "Ghana",
     "formalname": "Republic of Ghana",
     "type": "Independent State",
@@ -1062,7 +1062,7 @@
     "sort": "65"
   },
   "GR": {
-    "country": "GR",
+    "value": "GR",
     "name": "Greece",
     "formalname": "Hellenic Republic",
     "type": "Independent State",
@@ -1078,7 +1078,7 @@
     "sort": "66"
   },
   "GD": {
-    "country": "GD",
+    "value": "GD",
     "name": "Grenada",
     "formalname": "",
     "type": "Independent State",
@@ -1094,7 +1094,7 @@
     "sort": "67"
   },
   "GT": {
-    "country": "GT",
+    "value": "GT",
     "name": "Guatemala",
     "formalname": "Republic of Guatemala",
     "type": "Independent State",
@@ -1110,7 +1110,7 @@
     "sort": "68"
   },
   "GN": {
-    "country": "GN",
+    "value": "GN",
     "name": "Guinea",
     "formalname": "Republic of Guinea",
     "type": "Independent State",
@@ -1126,7 +1126,7 @@
     "sort": "69"
   },
   "GW": {
-    "country": "GW",
+    "value": "GW",
     "name": "Guinea-Bissau",
     "formalname": "Republic of Guinea-Bissau",
     "type": "Independent State",
@@ -1142,7 +1142,7 @@
     "sort": "70"
   },
   "GY": {
-    "country": "GY",
+    "value": "GY",
     "name": "Guyana",
     "formalname": "Co-operative Republic of Guyana",
     "type": "Independent State",
@@ -1158,7 +1158,7 @@
     "sort": "71"
   },
   "HT": {
-    "country": "HT",
+    "value": "HT",
     "name": "Haiti",
     "formalname": "Republic of Haiti",
     "type": "Independent State",
@@ -1174,7 +1174,7 @@
     "sort": "72"
   },
   "HN": {
-    "country": "HN",
+    "value": "HN",
     "name": "Honduras",
     "formalname": "Republic of Honduras",
     "type": "Independent State",
@@ -1190,7 +1190,7 @@
     "sort": "73"
   },
   "HU": {
-    "country": "HU",
+    "value": "HU",
     "name": "Hungary",
     "formalname": "Republic of Hungary",
     "type": "Independent State",
@@ -1206,7 +1206,7 @@
     "sort": "74"
   },
   "IS": {
-    "country": "IS",
+    "value": "IS",
     "name": "Iceland",
     "formalname": "Republic of Iceland",
     "type": "Independent State",
@@ -1222,7 +1222,7 @@
     "sort": "75"
   },
   "IN": {
-    "country": "IN",
+    "value": "IN",
     "name": "India",
     "formalname": "Republic of India",
     "type": "Independent State",
@@ -1238,7 +1238,7 @@
     "sort": "76"
   },
   "ID": {
-    "country": "ID",
+    "value": "ID",
     "name": "Indonesia",
     "formalname": "Republic of Indonesia",
     "type": "Independent State",
@@ -1254,7 +1254,7 @@
     "sort": "77"
   },
   "IR": {
-    "country": "IR",
+    "value": "IR",
     "name": "Iran",
     "formalname": "Islamic Republic of Iran",
     "type": "Independent State",
@@ -1270,7 +1270,7 @@
     "sort": "78"
   },
   "IQ": {
-    "country": "IQ",
+    "value": "IQ",
     "name": "Iraq",
     "formalname": "Republic of Iraq",
     "type": "Independent State",
@@ -1286,7 +1286,7 @@
     "sort": "79"
   },
   "IE": {
-    "country": "IE",
+    "value": "IE",
     "name": "Ireland",
     "formalname": "",
     "type": "Independent State",
@@ -1302,7 +1302,7 @@
     "sort": "80"
   },
   "IL": {
-    "country": "IL",
+    "value": "IL",
     "name": "Israel",
     "formalname": "State of Israel",
     "type": "Independent State",
@@ -1318,7 +1318,7 @@
     "sort": "81"
   },
   "IT": {
-    "country": "IT",
+    "value": "IT",
     "name": "Italy",
     "formalname": "Italian Republic",
     "type": "Independent State",
@@ -1334,7 +1334,7 @@
     "sort": "82"
   },
   "JM": {
-    "country": "JM",
+    "value": "JM",
     "name": "Jamaica",
     "formalname": "",
     "type": "Independent State",
@@ -1350,7 +1350,7 @@
     "sort": "83"
   },
   "JP": {
-    "country": "JP",
+    "value": "JP",
     "name": "Japan",
     "formalname": "",
     "type": "Independent State",
@@ -1366,7 +1366,7 @@
     "sort": "84"
   },
   "JO": {
-    "country": "JO",
+    "value": "JO",
     "name": "Jordan",
     "formalname": "Hashemite Kingdom of Jordan",
     "type": "Independent State",
@@ -1382,7 +1382,7 @@
     "sort": "85"
   },
   "KZ": {
-    "country": "KZ",
+    "value": "KZ",
     "name": "Kazakhstan",
     "formalname": "Republic of Kazakhstan",
     "type": "Independent State",
@@ -1398,7 +1398,7 @@
     "sort": "86"
   },
   "KE": {
-    "country": "KE",
+    "value": "KE",
     "name": "Kenya",
     "formalname": "Republic of Kenya",
     "type": "Independent State",
@@ -1414,7 +1414,7 @@
     "sort": "87"
   },
   "KI": {
-    "country": "KI",
+    "value": "KI",
     "name": "Kiribati",
     "formalname": "Republic of Kiribati",
     "type": "Independent State",
@@ -1430,7 +1430,7 @@
     "sort": "88"
   },
   "KP": {
-    "country": "KP",
+    "value": "KP",
     "name": "Korea, Democratic People's Republic of (North Korea)",
     "formalname": "Democratic People's Republic of Korea",
     "type": "Independent State",
@@ -1446,7 +1446,7 @@
     "sort": "89"
   },
   "KR": {
-    "country": "KR",
+    "value": "KR",
     "name": "Korea, Republic of  (South Korea)",
     "formalname": "Republic of Korea",
     "type": "Independent State",
@@ -1462,7 +1462,7 @@
     "sort": "90"
   },
   "KW": {
-    "country": "KW",
+    "value": "KW",
     "name": "Kuwait",
     "formalname": "State of Kuwait",
     "type": "Independent State",
@@ -1478,7 +1478,7 @@
     "sort": "91"
   },
   "KG": {
-    "country": "KG",
+    "value": "KG",
     "name": "Kyrgyzstan",
     "formalname": "Kyrgyz Republic",
     "type": "Independent State",
@@ -1494,7 +1494,7 @@
     "sort": "92"
   },
   "LA": {
-    "country": "LA",
+    "value": "LA",
     "name": "Laos",
     "formalname": "Lao People's Democratic Republic",
     "type": "Independent State",
@@ -1510,7 +1510,7 @@
     "sort": "93"
   },
   "LV": {
-    "country": "LV",
+    "value": "LV",
     "name": "Latvia",
     "formalname": "Republic of Latvia",
     "type": "Independent State",
@@ -1526,7 +1526,7 @@
     "sort": "94"
   },
   "LB": {
-    "country": "LB",
+    "value": "LB",
     "name": "Lebanon",
     "formalname": "Lebanese Republic",
     "type": "Independent State",
@@ -1542,7 +1542,7 @@
     "sort": "95"
   },
   "LS": {
-    "country": "LS",
+    "value": "LS",
     "name": "Lesotho",
     "formalname": "Kingdom of Lesotho",
     "type": "Independent State",
@@ -1558,7 +1558,7 @@
     "sort": "96"
   },
   "LR": {
-    "country": "LR",
+    "value": "LR",
     "name": "Liberia",
     "formalname": "Republic of Liberia",
     "type": "Independent State",
@@ -1574,7 +1574,7 @@
     "sort": "97"
   },
   "LY": {
-    "country": "LY",
+    "value": "LY",
     "name": "Libya",
     "formalname": "Great Socialist People's Libyan Arab Jamahiriya",
     "type": "Independent State",
@@ -1590,7 +1590,7 @@
     "sort": "98"
   },
   "LI": {
-    "country": "LI",
+    "value": "LI",
     "name": "Liechtenstein",
     "formalname": "Principality of Liechtenstein",
     "type": "Independent State",
@@ -1606,7 +1606,7 @@
     "sort": "99"
   },
   "LT": {
-    "country": "LT",
+    "value": "LT",
     "name": "Lithuania",
     "formalname": "Republic of Lithuania",
     "type": "Independent State",
@@ -1622,7 +1622,7 @@
     "sort": "100"
   },
   "LU": {
-    "country": "LU",
+    "value": "LU",
     "name": "Luxembourg",
     "formalname": "Grand Duchy of Luxembourg",
     "type": "Independent State",
@@ -1638,7 +1638,7 @@
     "sort": "101"
   },
   "MK": {
-    "country": "MK",
+    "value": "MK",
     "name": "Macedonia",
     "formalname": "Republic of Macedonia",
     "type": "Independent State",
@@ -1654,7 +1654,7 @@
     "sort": "102"
   },
   "MG": {
-    "country": "MG",
+    "value": "MG",
     "name": "Madagascar",
     "formalname": "Republic of Madagascar",
     "type": "Independent State",
@@ -1670,7 +1670,7 @@
     "sort": "103"
   },
   "MW": {
-    "country": "MW",
+    "value": "MW",
     "name": "Malawi",
     "formalname": "Republic of Malawi",
     "type": "Independent State",
@@ -1686,7 +1686,7 @@
     "sort": "104"
   },
   "MY": {
-    "country": "MY",
+    "value": "MY",
     "name": "Malaysia",
     "formalname": "",
     "type": "Independent State",
@@ -1702,7 +1702,7 @@
     "sort": "105"
   },
   "MV": {
-    "country": "MV",
+    "value": "MV",
     "name": "Maldives",
     "formalname": "Republic of Maldives",
     "type": "Independent State",
@@ -1718,7 +1718,7 @@
     "sort": "106"
   },
   "ML": {
-    "country": "ML",
+    "value": "ML",
     "name": "Mali",
     "formalname": "Republic of Mali",
     "type": "Independent State",
@@ -1734,7 +1734,7 @@
     "sort": "107"
   },
   "MT": {
-    "country": "MT",
+    "value": "MT",
     "name": "Malta",
     "formalname": "Republic of Malta",
     "type": "Independent State",
@@ -1750,7 +1750,7 @@
     "sort": "108"
   },
   "MH": {
-    "country": "MH",
+    "value": "MH",
     "name": "Marshall Islands",
     "formalname": "Republic of the Marshall Islands",
     "type": "Independent State",
@@ -1766,7 +1766,7 @@
     "sort": "109"
   },
   "MR": {
-    "country": "MR",
+    "value": "MR",
     "name": "Mauritania",
     "formalname": "Islamic Republic of Mauritania",
     "type": "Independent State",
@@ -1782,7 +1782,7 @@
     "sort": "110"
   },
   "MU": {
-    "country": "MU",
+    "value": "MU",
     "name": "Mauritius",
     "formalname": "Republic of Mauritius",
     "type": "Independent State",
@@ -1798,7 +1798,7 @@
     "sort": "111"
   },
   "MX": {
-    "country": "MX",
+    "value": "MX",
     "name": "Mexico",
     "formalname": "United Mexican States",
     "type": "Independent State",
@@ -1814,7 +1814,7 @@
     "sort": "112"
   },
   "FM": {
-    "country": "FM",
+    "value": "FM",
     "name": "Micronesia",
     "formalname": "Federated States of Micronesia",
     "type": "Independent State",
@@ -1830,7 +1830,7 @@
     "sort": "113"
   },
   "MD": {
-    "country": "MD",
+    "value": "MD",
     "name": "Pridnestrovie (Transnistria)",
     "formalname": "Pridnestrovian Moldavian Republic",
     "type": "Proto Independent State",
@@ -1846,7 +1846,7 @@
     "sort": "198"
   },
   "MC": {
-    "country": "MC",
+    "value": "MC",
     "name": "Monaco",
     "formalname": "Principality of Monaco",
     "type": "Independent State",
@@ -1862,7 +1862,7 @@
     "sort": "115"
   },
   "MN": {
-    "country": "MN",
+    "value": "MN",
     "name": "Mongolia",
     "formalname": "",
     "type": "Independent State",
@@ -1878,7 +1878,7 @@
     "sort": "116"
   },
   "ME": {
-    "country": "ME",
+    "value": "ME",
     "name": "Montenegro",
     "formalname": "Republic of Montenegro",
     "type": "Independent State",
@@ -1895,7 +1895,7 @@
     "tldsecondary": ".yu"
   },
   "MA": {
-    "country": "MA",
+    "value": "MA",
     "name": "Morocco",
     "formalname": "Kingdom of Morocco",
     "type": "Independent State",
@@ -1911,7 +1911,7 @@
     "sort": "118"
   },
   "MZ": {
-    "country": "MZ",
+    "value": "MZ",
     "name": "Mozambique",
     "formalname": "Republic of Mozambique",
     "type": "Independent State",
@@ -1927,7 +1927,7 @@
     "sort": "119"
   },
   "MM": {
-    "country": "MM",
+    "value": "MM",
     "name": "Myanmar (Burma)",
     "formalname": "Union of Myanmar",
     "type": "Independent State",
@@ -1943,7 +1943,7 @@
     "sort": "120"
   },
   "NA": {
-    "country": "NA",
+    "value": "NA",
     "name": "Namibia",
     "formalname": "Republic of Namibia",
     "type": "Independent State",
@@ -1959,7 +1959,7 @@
     "sort": "121"
   },
   "NR": {
-    "country": "NR",
+    "value": "NR",
     "name": "Nauru",
     "formalname": "Republic of Nauru",
     "type": "Independent State",
@@ -1975,7 +1975,7 @@
     "sort": "122"
   },
   "NP": {
-    "country": "NP",
+    "value": "NP",
     "name": "Nepal",
     "formalname": "",
     "type": "Independent State",
@@ -1991,7 +1991,7 @@
     "sort": "123"
   },
   "NL": {
-    "country": "NL",
+    "value": "NL",
     "name": "Netherlands",
     "formalname": "Kingdom of the Netherlands",
     "type": "Independent State",
@@ -2007,7 +2007,7 @@
     "sort": "124"
   },
   "NZ": {
-    "country": "NZ",
+    "value": "NZ",
     "name": "New Zealand",
     "formalname": "",
     "type": "Independent State",
@@ -2023,7 +2023,7 @@
     "sort": "125"
   },
   "NI": {
-    "country": "NI",
+    "value": "NI",
     "name": "Nicaragua",
     "formalname": "Republic of Nicaragua",
     "type": "Independent State",
@@ -2039,7 +2039,7 @@
     "sort": "126"
   },
   "NE": {
-    "country": "NE",
+    "value": "NE",
     "name": "Niger",
     "formalname": "Republic of Niger",
     "type": "Independent State",
@@ -2055,7 +2055,7 @@
     "sort": "127"
   },
   "NG": {
-    "country": "NG",
+    "value": "NG",
     "name": "Nigeria",
     "formalname": "Federal Republic of Nigeria",
     "type": "Independent State",
@@ -2071,7 +2071,7 @@
     "sort": "128"
   },
   "NO": {
-    "country": "NO",
+    "value": "NO",
     "name": "Norway",
     "formalname": "Kingdom of Norway",
     "type": "Independent State",
@@ -2087,7 +2087,7 @@
     "sort": "129"
   },
   "OM": {
-    "country": "OM",
+    "value": "OM",
     "name": "Oman",
     "formalname": "Sultanate of Oman",
     "type": "Independent State",
@@ -2103,7 +2103,7 @@
     "sort": "130"
   },
   "PK": {
-    "country": "PK",
+    "value": "PK",
     "name": "Pakistan",
     "formalname": "Islamic Republic of Pakistan",
     "type": "Independent State",
@@ -2119,7 +2119,7 @@
     "sort": "131"
   },
   "PW": {
-    "country": "PW",
+    "value": "PW",
     "name": "Palau",
     "formalname": "Republic of Palau",
     "type": "Independent State",
@@ -2135,7 +2135,7 @@
     "sort": "132"
   },
   "PA": {
-    "country": "PA",
+    "value": "PA",
     "name": "Panama",
     "formalname": "Republic of Panama",
     "type": "Independent State",
@@ -2151,7 +2151,7 @@
     "sort": "133"
   },
   "PG": {
-    "country": "PG",
+    "value": "PG",
     "name": "Papua New Guinea",
     "formalname": "Independent State of Papua New Guinea",
     "type": "Independent State",
@@ -2167,7 +2167,7 @@
     "sort": "134"
   },
   "PY": {
-    "country": "PY",
+    "value": "PY",
     "name": "Paraguay",
     "formalname": "Republic of Paraguay",
     "type": "Independent State",
@@ -2183,7 +2183,7 @@
     "sort": "135"
   },
   "PE": {
-    "country": "PE",
+    "value": "PE",
     "name": "Peru",
     "formalname": "Republic of Peru",
     "type": "Independent State",
@@ -2199,7 +2199,7 @@
     "sort": "136"
   },
   "PH": {
-    "country": "PH",
+    "value": "PH",
     "name": "Philippines",
     "formalname": "Republic of the Philippines",
     "type": "Independent State",
@@ -2215,7 +2215,7 @@
     "sort": "137"
   },
   "PL": {
-    "country": "PL",
+    "value": "PL",
     "name": "Poland",
     "formalname": "Republic of Poland",
     "type": "Independent State",
@@ -2231,7 +2231,7 @@
     "sort": "138"
   },
   "PT": {
-    "country": "PT",
+    "value": "PT",
     "name": "Portugal",
     "formalname": "Portuguese Republic",
     "type": "Independent State",
@@ -2247,7 +2247,7 @@
     "sort": "139"
   },
   "QA": {
-    "country": "QA",
+    "value": "QA",
     "name": "Qatar",
     "formalname": "State of Qatar",
     "type": "Independent State",
@@ -2263,7 +2263,7 @@
     "sort": "140"
   },
   "RO": {
-    "country": "RO",
+    "value": "RO",
     "name": "Romania",
     "formalname": "",
     "type": "Independent State",
@@ -2279,7 +2279,7 @@
     "sort": "141"
   },
   "RU": {
-    "country": "RU",
+    "value": "RU",
     "name": "Russia",
     "formalname": "Russian Federation",
     "type": "Independent State",
@@ -2296,7 +2296,7 @@
     "tldsecondary": ".su"
   },
   "RW": {
-    "country": "RW",
+    "value": "RW",
     "name": "Rwanda",
     "formalname": "Republic of Rwanda",
     "type": "Independent State",
@@ -2312,7 +2312,7 @@
     "sort": "143"
   },
   "KN": {
-    "country": "KN",
+    "value": "KN",
     "name": "Saint Kitts and Nevis",
     "formalname": "Federation of Saint Kitts and Nevis",
     "type": "Independent State",
@@ -2328,7 +2328,7 @@
     "sort": "144"
   },
   "LC": {
-    "country": "LC",
+    "value": "LC",
     "name": "Saint Lucia",
     "formalname": "",
     "type": "Independent State",
@@ -2344,7 +2344,7 @@
     "sort": "145"
   },
   "VC": {
-    "country": "VC",
+    "value": "VC",
     "name": "Saint Vincent and the Grenadines",
     "formalname": "",
     "type": "Independent State",
@@ -2360,7 +2360,7 @@
     "sort": "146"
   },
   "WS": {
-    "country": "WS",
+    "value": "WS",
     "name": "Samoa",
     "formalname": "Independent State of Samoa",
     "type": "Independent State",
@@ -2376,7 +2376,7 @@
     "sort": "147"
   },
   "SM": {
-    "country": "SM",
+    "value": "SM",
     "name": "San Marino",
     "formalname": "Republic of San Marino",
     "type": "Independent State",
@@ -2392,7 +2392,7 @@
     "sort": "148"
   },
   "ST": {
-    "country": "ST",
+    "value": "ST",
     "name": "Sao Tome and Principe",
     "formalname": "Democratic Republic of Sao Tome and Principe",
     "type": "Independent State",
@@ -2408,7 +2408,7 @@
     "sort": "149"
   },
   "SA": {
-    "country": "SA",
+    "value": "SA",
     "name": "Saudi Arabia",
     "formalname": "Kingdom of Saudi Arabia",
     "type": "Independent State",
@@ -2424,7 +2424,7 @@
     "sort": "150"
   },
   "SN": {
-    "country": "SN",
+    "value": "SN",
     "name": "Senegal",
     "formalname": "Republic of Senegal",
     "type": "Independent State",
@@ -2440,7 +2440,7 @@
     "sort": "151"
   },
   "RS": {
-    "country": "RS",
+    "value": "RS",
     "name": "Serbia",
     "formalname": "Republic of Serbia",
     "type": "Independent State",
@@ -2457,7 +2457,7 @@
     "tldsecondary": ".yu"
   },
   "SC": {
-    "country": "SC",
+    "value": "SC",
     "name": "Seychelles",
     "formalname": "Republic of Seychelles",
     "type": "Independent State",
@@ -2473,7 +2473,7 @@
     "sort": "153"
   },
   "SL": {
-    "country": "SL",
+    "value": "SL",
     "name": "Sierra Leone",
     "formalname": "Republic of Sierra Leone",
     "type": "Independent State",
@@ -2489,7 +2489,7 @@
     "sort": "154"
   },
   "SG": {
-    "country": "SG",
+    "value": "SG",
     "name": "Singapore",
     "formalname": "Republic of Singapore",
     "type": "Independent State",
@@ -2505,7 +2505,7 @@
     "sort": "155"
   },
   "SK": {
-    "country": "SK",
+    "value": "SK",
     "name": "Slovakia",
     "formalname": "Slovak Republic",
     "type": "Independent State",
@@ -2521,7 +2521,7 @@
     "sort": "156"
   },
   "SI": {
-    "country": "SI",
+    "value": "SI",
     "name": "Slovenia",
     "formalname": "Republic of Slovenia",
     "type": "Independent State",
@@ -2537,7 +2537,7 @@
     "sort": "157"
   },
   "SB": {
-    "country": "SB",
+    "value": "SB",
     "name": "Solomon Islands",
     "formalname": "",
     "type": "Independent State",
@@ -2553,7 +2553,7 @@
     "sort": "158"
   },
   "SO": {
-    "country": "SO",
+    "value": "SO",
     "name": "Somaliland",
     "formalname": "Republic of Somaliland",
     "type": "Proto Independent State",
@@ -2569,7 +2569,7 @@
     "sort": "199"
   },
   "ZA": {
-    "country": "ZA",
+    "value": "ZA",
     "name": "South Africa",
     "formalname": "Republic of South Africa",
     "type": "Independent State",
@@ -2585,7 +2585,7 @@
     "sort": "160"
   },
   "ES": {
-    "country": "ES",
+    "value": "ES",
     "name": "Spain",
     "formalname": "Kingdom of Spain",
     "type": "Independent State",
@@ -2601,7 +2601,7 @@
     "sort": "161"
   },
   "LK": {
-    "country": "LK",
+    "value": "LK",
     "name": "Sri Lanka",
     "formalname": "Democratic Socialist Republic of Sri Lanka",
     "type": "Independent State",
@@ -2617,7 +2617,7 @@
     "sort": "162"
   },
   "SD": {
-    "country": "SD",
+    "value": "SD",
     "name": "Sudan",
     "formalname": "Republic of the Sudan",
     "type": "Independent State",
@@ -2633,7 +2633,7 @@
     "sort": "163"
   },
   "SR": {
-    "country": "SR",
+    "value": "SR",
     "name": "Suriname",
     "formalname": "Republic of Suriname",
     "type": "Independent State",
@@ -2649,7 +2649,7 @@
     "sort": "164"
   },
   "SZ": {
-    "country": "SZ",
+    "value": "SZ",
     "name": "Swaziland",
     "formalname": "Kingdom of Swaziland",
     "type": "Independent State",
@@ -2665,7 +2665,7 @@
     "sort": "165"
   },
   "SE": {
-    "country": "SE",
+    "value": "SE",
     "name": "Sweden",
     "formalname": "Kingdom of Sweden",
     "type": "Independent State",
@@ -2681,7 +2681,7 @@
     "sort": "166"
   },
   "CH": {
-    "country": "CH",
+    "value": "CH",
     "name": "Switzerland",
     "formalname": "Swiss Confederation",
     "type": "Independent State",
@@ -2697,7 +2697,7 @@
     "sort": "167"
   },
   "SY": {
-    "country": "SY",
+    "value": "SY",
     "name": "Syria",
     "formalname": "Syrian Arab Republic",
     "type": "Independent State",
@@ -2713,7 +2713,7 @@
     "sort": "168"
   },
   "TJ": {
-    "country": "TJ",
+    "value": "TJ",
     "name": "Tajikistan",
     "formalname": "Republic of Tajikistan",
     "type": "Independent State",
@@ -2729,7 +2729,7 @@
     "sort": "169"
   },
   "TZ": {
-    "country": "TZ",
+    "value": "TZ",
     "name": "Tanzania",
     "formalname": "United Republic of Tanzania",
     "type": "Independent State",
@@ -2745,7 +2745,7 @@
     "sort": "170"
   },
   "TH": {
-    "country": "TH",
+    "value": "TH",
     "name": "Thailand",
     "formalname": "Kingdom of Thailand",
     "type": "Independent State",
@@ -2761,7 +2761,7 @@
     "sort": "171"
   },
   "TL": {
-    "country": "TL",
+    "value": "TL",
     "name": "Timor-Leste (East Timor)",
     "formalname": "Democratic Republic of Timor-Leste",
     "type": "Independent State",
@@ -2778,7 +2778,7 @@
     "tldsecondary": ".tl"
   },
   "TG": {
-    "country": "TG",
+    "value": "TG",
     "name": "Togo",
     "formalname": "Togolese Republic",
     "type": "Independent State",
@@ -2794,7 +2794,7 @@
     "sort": "173"
   },
   "TO": {
-    "country": "TO",
+    "value": "TO",
     "name": "Tonga",
     "formalname": "Kingdom of Tonga",
     "type": "Independent State",
@@ -2810,7 +2810,7 @@
     "sort": "174"
   },
   "TT": {
-    "country": "TT",
+    "value": "TT",
     "name": "Trinidad and Tobago",
     "formalname": "Republic of Trinidad and Tobago",
     "type": "Independent State",
@@ -2826,7 +2826,7 @@
     "sort": "175"
   },
   "TN": {
-    "country": "TN",
+    "value": "TN",
     "name": "Tunisia",
     "formalname": "Tunisian Republic",
     "type": "Independent State",
@@ -2842,7 +2842,7 @@
     "sort": "176"
   },
   "TR": {
-    "country": "TR",
+    "value": "TR",
     "name": "Turkey",
     "formalname": "Republic of Turkey",
     "type": "Independent State",
@@ -2858,7 +2858,7 @@
     "sort": "177"
   },
   "TM": {
-    "country": "TM",
+    "value": "TM",
     "name": "Turkmenistan",
     "formalname": "",
     "type": "Independent State",
@@ -2874,7 +2874,7 @@
     "sort": "178"
   },
   "TV": {
-    "country": "TV",
+    "value": "TV",
     "name": "Tuvalu",
     "formalname": "",
     "type": "Independent State",
@@ -2890,7 +2890,7 @@
     "sort": "179"
   },
   "UG": {
-    "country": "UG",
+    "value": "UG",
     "name": "Uganda",
     "formalname": "Republic of Uganda",
     "type": "Independent State",
@@ -2906,7 +2906,7 @@
     "sort": "180"
   },
   "UA": {
-    "country": "UA",
+    "value": "UA",
     "name": "Ukraine",
     "formalname": "",
     "type": "Independent State",
@@ -2922,7 +2922,7 @@
     "sort": "181"
   },
   "AE": {
-    "country": "AE",
+    "value": "AE",
     "name": "United Arab Emirates",
     "formalname": "United Arab Emirates",
     "type": "Independent State",
@@ -2938,7 +2938,7 @@
     "sort": "182"
   },
   "GB": {
-    "country": "GB",
+    "value": "GB",
     "name": "United Kingdom",
     "formalname": "United Kingdom of Great Britain and Northern Ireland",
     "type": "Independent State",
@@ -2954,7 +2954,7 @@
     "sort": "183"
   },
   "US": {
-    "country": "US",
+    "value": "US",
     "name": "United States",
     "formalname": "United States of America",
     "type": "Independent State",
@@ -2970,7 +2970,7 @@
     "sort": "184"
   },
   "UY": {
-    "country": "UY",
+    "value": "UY",
     "name": "Uruguay",
     "formalname": "Oriental Republic of Uruguay",
     "type": "Independent State",
@@ -2986,7 +2986,7 @@
     "sort": "185"
   },
   "UZ": {
-    "country": "UZ",
+    "value": "UZ",
     "name": "Uzbekistan",
     "formalname": "Republic of Uzbekistan",
     "type": "Independent State",
@@ -3002,7 +3002,7 @@
     "sort": "186"
   },
   "VU": {
-    "country": "VU",
+    "value": "VU",
     "name": "Vanuatu",
     "formalname": "Republic of Vanuatu",
     "type": "Independent State",
@@ -3018,7 +3018,7 @@
     "sort": "187"
   },
   "VA": {
-    "country": "VA",
+    "value": "VA",
     "name": "Vatican City",
     "formalname": "State of the Vatican City",
     "type": "Independent State",
@@ -3034,7 +3034,7 @@
     "sort": "188"
   },
   "VE": {
-    "country": "VE",
+    "value": "VE",
     "name": "Venezuela",
     "formalname": "Bolivarian Republic of Venezuela",
     "type": "Independent State",
@@ -3050,7 +3050,7 @@
     "sort": "189"
   },
   "VN": {
-    "country": "VN",
+    "value": "VN",
     "name": "Vietnam",
     "formalname": "Socialist Republic of Vietnam",
     "type": "Independent State",
@@ -3066,7 +3066,7 @@
     "sort": "190"
   },
   "YE": {
-    "country": "YE",
+    "value": "YE",
     "name": "Yemen",
     "formalname": "Republic of Yemen",
     "type": "Independent State",
@@ -3082,7 +3082,7 @@
     "sort": "191"
   },
   "ZM": {
-    "country": "ZM",
+    "value": "ZM",
     "name": "Zambia",
     "formalname": "Republic of Zambia",
     "type": "Independent State",
@@ -3098,7 +3098,7 @@
     "sort": "192"
   },
   "ZW": {
-    "country": "ZW",
+    "value": "ZW",
     "name": "Zimbabwe",
     "formalname": "Republic of Zimbabwe",
     "type": "Independent State",
@@ -3114,7 +3114,7 @@
     "sort": "193"
   },
   "TW": {
-    "country": "TW",
+    "value": "TW",
     "name": "China, Republic of (Taiwan)",
     "formalname": "Republic of China",
     "type": "Proto Independent State",
@@ -3130,7 +3130,7 @@
     "sort": "195"
   },
   "CX": {
-    "country": "CX",
+    "value": "CX",
     "name": "Christmas Island",
     "formalname": "Territory of Christmas Island",
     "type": "Dependency",
@@ -3146,7 +3146,7 @@
     "sort": "202"
   },
   "CC": {
-    "country": "CC",
+    "value": "CC",
     "name": "Cocos (Keeling) Islands",
     "formalname": "Territory of Cocos (Keeling) Islands",
     "type": "Dependency",
@@ -3162,7 +3162,7 @@
     "sort": "203"
   },
   "HM": {
-    "country": "HM",
+    "value": "HM",
     "name": "Heard Island and McDonald Islands",
     "formalname": "Territory of Heard Island and McDonald Islands",
     "type": "Dependency",
@@ -3178,7 +3178,7 @@
     "sort": "205"
   },
   "NF": {
-    "country": "NF",
+    "value": "NF",
     "name": "Norfolk Island",
     "formalname": "Territory of Norfolk Island",
     "type": "Dependency",
@@ -3194,7 +3194,7 @@
     "sort": "206"
   },
   "NC": {
-    "country": "NC",
+    "value": "NC",
     "name": "New Caledonia",
     "formalname": "",
     "type": "Dependency",
@@ -3210,7 +3210,7 @@
     "sort": "207"
   },
   "PF": {
-    "country": "PF",
+    "value": "PF",
     "name": "Clipperton Island",
     "formalname": "",
     "type": "Dependency",
@@ -3226,7 +3226,7 @@
     "sort": "215"
   },
   "YT": {
-    "country": "YT",
+    "value": "YT",
     "name": "Mayotte",
     "formalname": "Departmental Collectivity of Mayotte",
     "type": "Dependency",
@@ -3242,7 +3242,7 @@
     "sort": "209"
   },
   "GP": {
-    "country": "GP",
+    "value": "GP",
     "name": "Guadeloupe",
     "formalname": "Overseas Region of Guadeloupe",
     "type": "Proto Dependency",
@@ -3258,7 +3258,7 @@
     "sort": "255"
   },
   "PM": {
-    "country": "PM",
+    "value": "PM",
     "name": "Saint Pierre and Miquelon",
     "formalname": "Territorial Collectivity of Saint Pierre and Miquelon",
     "type": "Dependency",
@@ -3274,7 +3274,7 @@
     "sort": "212"
   },
   "WF": {
-    "country": "WF",
+    "value": "WF",
     "name": "Wallis and Futuna",
     "formalname": "Collectivity of the Wallis and Futuna Islands",
     "type": "Dependency",
@@ -3290,7 +3290,7 @@
     "sort": "213"
   },
   "TF": {
-    "country": "TF",
+    "value": "TF",
     "name": "French Southern and Antarctic Lands",
     "formalname": "Territory of the French Southern and Antarctic Lands",
     "type": "Dependency",
@@ -3306,7 +3306,7 @@
     "sort": "214"
   },
   "BV": {
-    "country": "BV",
+    "value": "BV",
     "name": "Bouvet Island",
     "formalname": "",
     "type": "Dependency",
@@ -3322,7 +3322,7 @@
     "sort": "216"
   },
   "CK": {
-    "country": "CK",
+    "value": "CK",
     "name": "Cook Islands",
     "formalname": "",
     "type": "Dependency",
@@ -3338,7 +3338,7 @@
     "sort": "217"
   },
   "NU": {
-    "country": "NU",
+    "value": "NU",
     "name": "Niue",
     "formalname": "",
     "type": "Dependency",
@@ -3354,7 +3354,7 @@
     "sort": "218"
   },
   "TK": {
-    "country": "TK",
+    "value": "TK",
     "name": "Tokelau",
     "formalname": "",
     "type": "Dependency",
@@ -3370,7 +3370,7 @@
     "sort": "219"
   },
   "GG": {
-    "country": "GG",
+    "value": "GG",
     "name": "Guernsey",
     "formalname": "Bailiwick of Guernsey",
     "type": "Dependency",
@@ -3386,7 +3386,7 @@
     "sort": "220"
   },
   "IM": {
-    "country": "IM",
+    "value": "IM",
     "name": "Isle of Man",
     "formalname": "",
     "type": "Dependency",
@@ -3402,7 +3402,7 @@
     "sort": "221"
   },
   "JE": {
-    "country": "JE",
+    "value": "JE",
     "name": "Jersey",
     "formalname": "Bailiwick of Jersey",
     "type": "Dependency",
@@ -3418,7 +3418,7 @@
     "sort": "222"
   },
   "AI": {
-    "country": "AI",
+    "value": "AI",
     "name": "Anguilla",
     "formalname": "",
     "type": "Dependency",
@@ -3434,7 +3434,7 @@
     "sort": "223"
   },
   "BM": {
-    "country": "BM",
+    "value": "BM",
     "name": "Bermuda",
     "formalname": "",
     "type": "Dependency",
@@ -3450,7 +3450,7 @@
     "sort": "224"
   },
   "IO": {
-    "country": "IO",
+    "value": "IO",
     "name": "British Indian Ocean Territory",
     "formalname": "",
     "type": "Dependency",
@@ -3466,7 +3466,7 @@
     "sort": "225"
   },
   "VG": {
-    "country": "VG",
+    "value": "VG",
     "name": "British Virgin Islands",
     "formalname": "",
     "type": "Dependency",
@@ -3482,7 +3482,7 @@
     "sort": "227"
   },
   "KY": {
-    "country": "KY",
+    "value": "KY",
     "name": "Cayman Islands",
     "formalname": "",
     "type": "Dependency",
@@ -3498,7 +3498,7 @@
     "sort": "228"
   },
   "FK": {
-    "country": "FK",
+    "value": "FK",
     "name": "Falkland Islands (Islas Malvinas)",
     "formalname": "",
     "type": "Dependency",
@@ -3514,7 +3514,7 @@
     "sort": "229"
   },
   "GI": {
-    "country": "GI",
+    "value": "GI",
     "name": "Gibraltar",
     "formalname": "",
     "type": "Dependency",
@@ -3530,7 +3530,7 @@
     "sort": "230"
   },
   "MS": {
-    "country": "MS",
+    "value": "MS",
     "name": "Montserrat",
     "formalname": "",
     "type": "Dependency",
@@ -3546,7 +3546,7 @@
     "sort": "231"
   },
   "PN": {
-    "country": "PN",
+    "value": "PN",
     "name": "Pitcairn Islands",
     "formalname": "",
     "type": "Dependency",
@@ -3562,7 +3562,7 @@
     "sort": "232"
   },
   "SH": {
-    "country": "SH",
+    "value": "SH",
     "name": "Saint Helena",
     "formalname": "",
     "type": "Dependency",
@@ -3578,7 +3578,7 @@
     "sort": "233"
   },
   "GS": {
-    "country": "GS",
+    "value": "GS",
     "name": "South Georgia and the South Sandwich Islands",
     "formalname": "",
     "type": "Dependency",
@@ -3594,7 +3594,7 @@
     "sort": "234"
   },
   "TC": {
-    "country": "TC",
+    "value": "TC",
     "name": "Turks and Caicos Islands",
     "formalname": "",
     "type": "Dependency",
@@ -3610,7 +3610,7 @@
     "sort": "235"
   },
   "MP": {
-    "country": "MP",
+    "value": "MP",
     "name": "Northern Mariana Islands",
     "formalname": "Commonwealth of The Northern Mariana Islands",
     "type": "Dependency",
@@ -3626,7 +3626,7 @@
     "sort": "236"
   },
   "PR": {
-    "country": "PR",
+    "value": "PR",
     "name": "Puerto Rico",
     "formalname": "Commonwealth of Puerto Rico",
     "type": "Dependency",
@@ -3642,7 +3642,7 @@
     "sort": "237"
   },
   "AS": {
-    "country": "AS",
+    "value": "AS",
     "name": "American Samoa",
     "formalname": "Territory of American Samoa",
     "type": "Dependency",
@@ -3658,7 +3658,7 @@
     "sort": "238"
   },
   "UM": {
-    "country": "UM",
+    "value": "UM",
     "name": "Wake Island",
     "formalname": "",
     "type": "Dependency",
@@ -3674,7 +3674,7 @@
     "sort": "249"
   },
   "GU": {
-    "country": "GU",
+    "value": "GU",
     "name": "Guam",
     "formalname": "Territory of Guam",
     "type": "Dependency",
@@ -3690,7 +3690,7 @@
     "sort": "240"
   },
   "VI": {
-    "country": "VI",
+    "value": "VI",
     "name": "U.S. Virgin Islands",
     "formalname": "United States Virgin Islands",
     "type": "Dependency",
@@ -3706,7 +3706,7 @@
     "sort": "248"
   },
   "HK": {
-    "country": "HK",
+    "value": "HK",
     "name": "Hong Kong",
     "formalname": "Hong Kong Special Administrative Region",
     "type": "Proto Dependency",
@@ -3722,7 +3722,7 @@
     "sort": "250"
   },
   "MO": {
-    "country": "MO",
+    "value": "MO",
     "name": "Macau",
     "formalname": "Macau Special Administrative Region",
     "type": "Proto Dependency",
@@ -3738,7 +3738,7 @@
     "sort": "251"
   },
   "FO": {
-    "country": "FO",
+    "value": "FO",
     "name": "Faroe Islands",
     "formalname": "",
     "type": "Proto Dependency",
@@ -3754,7 +3754,7 @@
     "sort": "252"
   },
   "GL": {
-    "country": "GL",
+    "value": "GL",
     "name": "Greenland",
     "formalname": "",
     "type": "Proto Dependency",
@@ -3770,7 +3770,7 @@
     "sort": "253"
   },
   "GF": {
-    "country": "GF",
+    "value": "GF",
     "name": "French Guiana",
     "formalname": "Overseas Region of Guiana",
     "type": "Proto Dependency",
@@ -3786,7 +3786,7 @@
     "sort": "254"
   },
   "MQ": {
-    "country": "MQ",
+    "value": "MQ",
     "name": "Martinique",
     "formalname": "Overseas Region of Martinique",
     "type": "Proto Dependency",
@@ -3802,7 +3802,7 @@
     "sort": "256"
   },
   "RE": {
-    "country": "RE",
+    "value": "RE",
     "name": "Reunion",
     "formalname": "Overseas Region of Reunion",
     "type": "Proto Dependency",
@@ -3818,7 +3818,7 @@
     "sort": "257"
   },
   "AX": {
-    "country": "AX",
+    "value": "AX",
     "name": "Aland",
     "formalname": "",
     "type": "Proto Dependency",
@@ -3834,7 +3834,7 @@
     "sort": "258"
   },
   "AW": {
-    "country": "AW",
+    "value": "AW",
     "name": "Aruba",
     "formalname": "",
     "type": "Proto Dependency",
@@ -3850,7 +3850,7 @@
     "sort": "259"
   },
   "AN": {
-    "country": "AN",
+    "value": "AN",
     "name": "Netherlands Antilles",
     "formalname": "",
     "type": "Proto Dependency",
@@ -3866,7 +3866,7 @@
     "sort": "260"
   },
   "SJ": {
-    "country": "SJ",
+    "value": "SJ",
     "name": "Svalbard",
     "formalname": "",
     "type": "Proto Dependency",
@@ -3882,7 +3882,7 @@
     "sort": "261"
   },
   "AC": {
-    "country": "AC",
+    "value": "AC",
     "name": "Ascension",
     "formalname": "",
     "type": "Proto Dependency",
@@ -3898,7 +3898,7 @@
     "sort": "262"
   },
   "TA": {
-    "country": "TA",
+    "value": "TA",
     "name": "Tristan da Cunha",
     "formalname": "",
     "type": "Proto Dependency",
@@ -3914,7 +3914,7 @@
     "sort": "263"
   },
   "AQ": {
-    "country": "AQ",
+    "value": "AQ",
     "name": "British Antarctic Territory",
     "formalname": "",
     "type": "Antarctic Territory",
@@ -3930,7 +3930,7 @@
     "sort": "272"
   },
   "CS": {
-    "country": "CS",
+    "value": "CS",
     "name": "Kosovo",
     "formalname": "",
     "type": "Disputed Territory",
@@ -3948,7 +3948,7 @@
     "currencysecondary": "EUR"
   },
   "PS": {
-    "country": "PS",
+    "value": "PS",
     "name": "Palestinian Territories (Gaza Strip and West Bank)",
     "formalname": "",
     "type": "Disputed Territory",
@@ -3964,7 +3964,7 @@
     "sort": "266"
   },
   "EH": {
-    "country": "EH",
+    "value": "EH",
     "name": "Western Sahara",
     "formalname": "",
     "type": "Disputed Territory",
@@ -5302,7 +5302,7 @@
   iso.getSimpleCountryList = function() {
     var results = iso.states.map(function(c) {
       return {
-        country: c.country,
+        value: c.value,
         name: c.name
       };
     });
