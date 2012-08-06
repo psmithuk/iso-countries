@@ -17,7 +17,7 @@
     return iso;
   };
 
-  iso.version = '0.0.1';
+  iso.version = '0.1';
 
   iso.countries = '%%countries%%';
 
@@ -26,7 +26,7 @@
   iso.findCountryByCode = function(code) {
     for (var prop in iso.countries) {
       if (iso.countries.hasOwnProperty(prop)) {
-        if (iso.countries[prop]['iso3116-1-2'] == code || iso.countries[prop]['iso3116-1-3'] == code) return iso.countries[prop];
+        if (iso.countries[prop].alpha2 == code || iso.countries[prop].alpha3 == code) return iso.countries[prop];
       }
     }
   };
@@ -35,7 +35,7 @@
     num = parseInt(num, 10);
     for (var prop in iso.countries) {
       if (iso.countries.hasOwnProperty(prop)) {
-        if (parseInt(iso.countries[prop]['iso3116-1'], 10) == num) return iso.countries[prop];
+        if (parseInt(iso.countries[prop].number, 10) == num) return iso.countries[prop];
       }
     }
   };
@@ -44,19 +44,17 @@
     for (var prop in iso.countries) {
       if (iso.countries.hasOwnProperty(prop)) {
         if (iso.countries[prop]['name'] == name) return iso.countries[prop];
+        else if (iso.countries[prop]['names'] && iso.countries[prop]['names'].indexOf(name) > -1) return is.countries[prop];
       }
     }
   };
 
-  iso.findCountriesByCountryCodedTLD = function(code) {
-    if (!code) return undefined;
-    if (code.charAt(0) !== '.') code = '.' + code;
-
+  iso.findCountriesByRegion = function(region) {
     var results = [];
 
     for (var prop in iso.countries) {
       if (iso.countries.hasOwnProperty(prop)) {
-        if (iso.countries[prop]['tld'] == code || iso.countries[prop]['tldsecondary'] == code) {
+        if (iso.countries[prop]['region'] == region) {
           results.push(iso.countries[prop]);
         }
       }
@@ -64,55 +62,16 @@
     if (!results.length) return undefined;
     return results;
   };
-
-
-  iso.findCountriesByTLD = iso.findCountriesByCountryCodedTLD;
-
-  iso.findCountriesByType = function(type) {
-    var results = [];
-
-    for (var prop in iso.countries) {
-      if (iso.countries.hasOwnProperty(prop)) {
-        if (iso.countries[prop]['type'] == type) {
-          results.push(iso.countries[prop]);
-        }
-      }
-    }
-    if (!results.length) return undefined;
-    return results;
-  };
-
-
-  iso.findCountriesByTypes = function(types) {
-    if (typeof types == 'string') {
-      types = [types];
-    }
-
-    var results = [];
-
-    for (var prop in iso.countries) {
-      if (iso.countries.hasOwnProperty(prop)) {
-        for (var i = types.length - 1; i >= 0; i--) {
-          if (types[i] == iso.countries[prop]['type']) {
-            results.push(iso.countries[prop]);
-          }
-        }
-      }
-    }
-    if (!results.length) return undefined;
-    return results;
-  };
-
-  iso.independentStates = iso.findCountriesByType('Independent State');
-  iso.states = iso.findCountriesByTypes(['Independent State','Proto Independent State']);
 
   iso.getSimpleCountryList = function() {
-    var results = iso.states.map(function(c) {
-      return {
-        value: c.value,
-        name: c.name
-      };
-    });
+    var results = [];
+
+    for(var prop in iso.countries) {
+      results.push({
+        value: iso.countries[prop].value,
+        name: iso.countries[prop].name
+      });
+    }
 
     return results.sort(function(a,b) {
       if (a.name < b.name)  return -1;
@@ -124,7 +83,7 @@
   iso.findCurrency = function(currency) {
     for (var prop in iso.currencies) {
       if (iso.currencies.hasOwnProperty(prop)) {
-        if (iso.currencies[prop]['currency'] == currency) return iso.currencies[prop];
+        if (iso.currencies[prop]['value'] == currency) return iso.currencies[prop];
       }
     }
   };

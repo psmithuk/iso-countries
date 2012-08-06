@@ -47,6 +47,7 @@ describe('ISO Country Codes', function() {
     should.exist(iso.countries);
     iso.countries.should.have.property('AF');
     iso.countries['AF'].should.have.property('name', 'Afghanistan');
+    iso.countries['AF'].should.have.property('value', 'AF');
   });
 
 });
@@ -56,7 +57,7 @@ describe('ISO Currency Codes', function() {
   it('should have a `currencies` property', function() {
     should.exist(iso.currencies);
     iso.currencies.should.have.property('AFN');
-    iso.currencies['AFN'].should.have.property('name', 'Afghani');
+    iso.currencies['AFN'].should.have.property('value', 'AFN');
     iso.currencies['AFN'].countries.should.have.length(1);
   });
 
@@ -85,37 +86,15 @@ describe('ISO Country find methods', function() {
     should.not.exist(iso.findCountryByName('Fake_Nation'));
   });
 
-  it('should have a `findCountriesByCountryCodedTLD` function', function() {
-    iso.findCountriesByCountryCodedTLD.should.be.a('function');
-    iso.findCountriesByTLD.should.be.a('function');
-    iso.findCountriesByTLD.should.be.eql(iso.findCountriesByCountryCodedTLD);
-    iso.findCountriesByCountryCodedTLD('.af').should.eql([iso.countries['AF']]);
-    iso.findCountriesByTLD('.af').should.eql([iso.countries['AF']]);
-    iso.findCountriesByCountryCodedTLD('af').should.eql([iso.countries['AF']]);
-    should.not.exist(iso.findCountriesByCountryCodedTLD(''));
-    should.not.exist(iso.findCountriesByCountryCodedTLD('_'));
-    iso.findCountriesByCountryCodedTLD('yu').should.have.length(3);
-  });
-
-  it('should have a `findCountriesByType` function', function() {
-    iso.findCountriesByType.should.be.a('function');
-    iso.findCountriesByType('Independent State').length.should.above(0);
-  });
-
-  it('should have a `findCountriesByTypes` function', function() {
-    iso.findCountriesByTypes.should.be.a('function');
-    iso.findCountriesByType('Proto Independent State').length.should.eql(6);
-    iso.independentStates.should.be.eql(iso.findCountriesByType('Independent State'));
-    iso.independentStates.should.be.a('object');
-    iso.states.should.be.a('object');
-    iso.states.length.should.be.above(iso.independentStates.length);
+  it('should have a `findCountriesByRegion` function', function() {
+    iso.findCountriesByRegion.should.be.a('function');
+    iso.findCountriesByRegion('Asia').length.should.above(0);
   });
 
   it('should have a `getSimpleCountryList` function', function() {
     iso.getSimpleCountryList.should.be.a('function');
-    iso.getSimpleCountryList().length.should.be.eql(193);
-    iso.getSimpleCountryList()[0].should.be.eql({ value: 'AF', name: 'Afghanistan' });
-    iso.getSimpleCountryList().pop().should.be.eql({ value: 'ZW', name: 'Zimbabwe' });
+    iso.getSimpleCountryList().length.should.be.eql(246);
+    iso.getSimpleCountryList().pop().should.be.eql({ value: 'AX', name: 'Åland Islands' });
   });
 
 });
@@ -125,7 +104,7 @@ describe('ISO Currencies find methods', function() {
   it('should have a `findCurrency` function', function() {
     iso.findCurrency.should.be.a('function');
     iso.findCurrency('GBP').countries.length.should.eql(1);
-    iso.findCurrency('USD').countries.length.should.eql(14);
+    iso.findCurrency('USD').countries.length.should.eql(18);
   });
 
 });

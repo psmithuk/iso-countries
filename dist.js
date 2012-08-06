@@ -6,90 +6,59 @@ var colors = require('colors'),
   fs = require('fs'),
   _ = require('underscore'),
   program = require('commander'),
-  request = require('request');
+  request = require('request'),
+  yaml = require('js-yaml');
 
-program.version('0.0.1').option('-i,--inputfile [file]', 'Input file (csv)').option('-o,--outputfile [file]', 'Output file').parse(process.argv);
+program.version('0.0.2').option('-i,--inputfile [file]', 'Input file (csv)').option('-o,--outputfile [file]', 'Output file').parse(process.argv);
 
 var inputfile = program.inputfile;
 var outputfile = program.outputfile;
 
-if(!inputfile) inputfile = 'isocountry_detailed.txt';
+if(!inputfile) inputfile = 'countries.yaml';
 if(!outputfile) outputfile = 'dist/countries.js';
-
-var headers = [
-  'Sort Order',
-  'Common Name',
-  'Formal Name',
-  'Type',
-  'Sub Type',
-  'Sovereignty',
-  'Capital',
-  'ISO 4217 Currency Code',
-  'ISO 4217 Currency Name',
-  'ITU-T Telephone Code',
-  'ISO 3166-1 2 Letter Code',
-  'ISO 3166-1 3 Letter Code',
-  'ISO 3166-1 Number',
-  'IANA Country Code TLD'
-];
 
 var currenciesByISO = {};
 var countriesByISO = {};
 var lines = [];
 
-fs.readFile(__dirname + '/' + 'isocountry_detailed.txt', function(err, data) {
+fs.readFile(inputfile, function(err, data) {
 
-  var arr = [];
-
-  // all lines expect the first
-  lines = _.rest(data.toString().split('\n'));
-  _.each(lines, function(line) {
-    arr.push(lineToObj(line, headers));
-  });
+  var countries = yaml.load(data);
 
   // populate objects
-  _.each(arr, function(country) {
-    var iso3166 = country['ISO 3166-1 2 Letter Code'];
-    if (iso3166) {
-      var currencies = country['ISO 4217 Currency Code'].split(' and ');
-      var tlds = country['IANA Country Code TLD'].split(' and ');
+  _.each(countries, function(country, key) {
+
+    var alpha2 = country.alpha2;
+    if (alpha2) {
+      var currency = country.currency;
 
       var obj = {
-        value: iso3166,
-        name: country['Common Name'],
-        formalname: country['Formal Name'],
-        type: country['Type'],
-        subtype: country['Sub Type'],
-        sovereignty: country['Sovereignty'],
-        capital: country['Capital'],
-        currency: currencies[0],
-        tel: country['ITU-T Telephone Code'],
-        'iso3116-1': country['ISO 3166-1 Number'],
-        'iso3116-1-2': iso3166,
-        'iso3116-1-3': country['ISO 3166-1 3 Letter Code'],
-        'tld': tlds[0],
-        'sort': country['Sort Order']
+        value: country.alpha2,
+        name: country.name,
+        names: country.names,
+        region: country.region,
+        subregion: country.subregion,
+        currency: country.currency,
+        alpha2: country.alpha2,
+        alpha3: country.alpha3,
+        ioc: country.ioc,
+        number: country.number,
+        tel: country.country_code,
+        latitude: country.latitude,
+        longitude: country.longitude,
+        un: country.un_locode
       };
 
-      if(tlds[1]) obj.tldsecondary = tlds[1];
-      if(currencies[1]) obj.currencysecondary = currencies[1];
+      countriesByISO[alpha2] = obj;
 
-      countriesByISO[iso3166] = obj;
-
-      if (currencies && currencies.length) {
-        _.each(currencies, function(c, i) {
-          if (c) {
-            if (!currenciesByISO[c]) {
-              currenciesByISO[c] = {
-                currency: c,
-                name: country['ISO 4217 Currency Name'].split(' and ')[i],
-                countries: [obj.value]
-              };
-            } else {
-              currenciesByISO[c].countries.push(obj.value);
-            }
-          }
-        });
+      if (!currenciesByISO[country.currency]) {
+        currenciesByISO[country.currency] = {
+          value:  country.currency,
+          name: country.currency,
+          countries: [obj.value]
+        };
+      } else {
+        currenciesByISO[country.currency].countries.push(obj.value);
       }
     }
   });
@@ -114,46 +83,4 @@ function loadTemplate(callback) {
     if(err) return callback(err);
     callback(null, data.toString());
   });
-}
-
-function lineToObj(line, columns) {
-
-  var quoted = false;
-  var fields = [];
-  var field = '';
-  var obj = {};
-
-  for (var i = 0; i < line.length; i++) {
-    var c = line.charAt(i);
-    switch (c) {
-    case (','):
-      if (!quoted) {
-        fields.push(field);
-        field = '';
-      } else {
-        field = field + c;
-      }
-      break;
-    case ('\"'):
-      if (!quoted && field.length === 0) {
-        quoted = true;
-      } else {
-        quoted = false;
-      }
-      break;
-    default:
-      field = field + c;
-      break;
-    }
-  }
-  fields.push(field);
-
-  if (columns !== undefined) {
-    for (var j = 0; j < columns.length; j++) {
-      obj[columns[j]] = fields[j];
-    }
-    return obj;
-  }
-
-  return fields;
 }

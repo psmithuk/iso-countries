@@ -8,7 +8,7 @@ all: dist test
 
 dist:	
 	node dist.js \
-		--inputfile isocountry_detailed.txt \
+		--inputfile countries.yaml \
 		--outputfile dist/countries.js
 	$(UGLIFY) dist/countries.js > dist/countries.min.js
 
