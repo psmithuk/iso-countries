@@ -44,7 +44,7 @@
     for (var prop in iso.countries) {
       if (iso.countries.hasOwnProperty(prop)) {
         if (iso.countries[prop]['name'] == name) return iso.countries[prop];
-        else if (iso.countries[prop]['names'] && iso.countries[prop]['names'].indexOf(name) > -1) return is.countries[prop];
+        else if (iso.countries[prop]['names'] && iso.countries[prop]['names'].indexOf(name) > -1) return iso.countries[prop];
       }
     }
   };

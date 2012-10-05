@@ -83,6 +83,7 @@ describe('ISO Country find methods', function() {
   it('should have a `findCountryByName` function', function() {
     iso.findCountryByName.should.be.a('function');
     iso.findCountryByName('Afghanistan').should.eql(iso.countries['AF']);
+    iso.findCountryByName('Albanie').should.eql(iso.countries['AL']);
     should.not.exist(iso.findCountryByName('Fake_Nation'));
   });
 
