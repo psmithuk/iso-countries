@@ -1,15 +1,14 @@
-/**
- * Module dependencies.
- */
-
 var colors = require('colors'),
-  fs = require('fs'),
-  _ = require('underscore'),
-  program = require('commander'),
-  request = require('request'),
-  yaml = require('js-yaml');
+    fs = require('fs'),
+    _ = require('underscore'),
+    program = require('commander'),
+    request = require('request'),
+    yaml = require('js-yaml');
 
-program.version('0.0.2').option('-i,--inputfile [file]', 'Input file (csv)').option('-o,--outputfile [file]', 'Output file').parse(process.argv);
+program.version('0.0.3')
+       .option('-i,--inputfile [file]', 'Input file (csv)')
+       .option('-o,--outputfile [file]', 'Output file')
+       .parse(process.argv);
 
 var inputfile = program.inputfile;
 var outputfile = program.outputfile;
@@ -48,6 +47,10 @@ fs.readFile(inputfile, function(err, data) {
         longitude: country.longitude,
         un: country.un_locode
       };
+
+      if(country.commonname) {
+        obj.commonname = country.commonname;
+      }
 
       countriesByISO[alpha2] = obj;
 

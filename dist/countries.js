@@ -2492,7 +2492,8 @@
     "tel": "856",
     "latitude": "18 00 N",
     "longitude": "105 00 E",
-    "un": "LA"
+    "un": "LA",
+    "commonname": "Laos"
   },
   "LB": {
     "value": "LB",
@@ -4507,7 +4508,8 @@
     "tel": "886",
     "latitude": "23 30 N",
     "longitude": "121 00 E",
-    "un": "TW"
+    "un": "TW",
+    "commonname": "Taiwan"
   },
   "TZ": {
     "value": "TZ",
@@ -4527,7 +4529,8 @@
     "tel": "255",
     "latitude": "6 00 S",
     "longitude": "35 00 E",
-    "un": "TZ"
+    "un": "TZ",
+    "commonname": "Tanzania"
   },
   "UA": {
     "value": "UA",
@@ -4707,7 +4710,8 @@
     "tel": "58",
     "latitude": "8 00 N",
     "longitude": "66 00 W",
-    "un": "VE"
+    "un": "VE",
+    "commonname": "Venezuela"
   },
   "VG": {
     "value": "VG",

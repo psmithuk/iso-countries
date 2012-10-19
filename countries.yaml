@@ -960,6 +960,7 @@ CD:
     - 2
   national_number_lengths: 
     - 8
+  shortname: "Congo"
   national_prefix: None
   number: "180"
   region: Africa
@@ -3058,6 +3059,7 @@ LA:
     - Laos
     - Laos
     - Laos
+  commonname: "Laos"
   national_destination_code_lengths: 
     - 2
   national_number_lengths: 
@@ -5520,6 +5522,7 @@ TW:
   names: 
     - Taiwan
     - Taiwán
+  commonname: "Taiwan"
   national_destination_code_lengths: 
     - 2
   national_number_lengths: 
@@ -5544,6 +5547,7 @@ TZ:
     - Tanzania
     - Tansania
     - Tanzanie
+  commonname: "Tanzania"
   national_destination_code_lengths: 
     - 2
   national_number_lengths: 
@@ -5762,6 +5766,7 @@ VE:
   name: "Venezuela, Bolivarian Republic of"
   names: 
     - Venezuela
+  commonname: "Venezuela"
   national_destination_code_lengths: 
     - 2
   national_number_lengths: 

@@ -24,7 +24,6 @@
     "doc": "./doc",
     "lib": "./lib"
   },
-  "main": "convert.js",
   "scripts": {
     "start": "make build",
     "test": "make test"

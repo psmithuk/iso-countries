@@ -109,3 +109,18 @@ describe('ISO Currencies find methods', function() {
   });
 
 });
+
+
+describe('ISO Countries have optional common names', function() {
+
+  it('some countries should have a common name', function() {
+    iso.countries['TW'].should.have.property('commonname', 'Taiwan');
+    iso.countries['LA'].should.have.property('commonname', 'Laos');
+    iso.countries['VE'].should.have.property('commonname', 'Venezuela');
+  });
+
+  it('some countries should not have a common name', function() {
+    iso.countries['AF'].should.not.have.property('commonname');
+  });
+});
+
