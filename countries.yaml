@@ -3582,7 +3582,7 @@ MO:
   alpha2: MO
   alpha3: MAC
   country_code: "853"
-  currency: ~
+  currency: MOP
   international_prefix: "00"
   ioc: 
   latitude: "22 10 N"
@@ -5360,7 +5360,7 @@ TM:
   alpha2: TM
   alpha3: TKM
   country_code: "993"
-  currency: ~
+  currency: TMT
   international_prefix: "810"
   ioc: TKM
   latitude: "40 00 N"

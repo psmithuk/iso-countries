@@ -2926,7 +2926,7 @@
     ],
     "region": "Asia",
     "subregion": "Eastern Asia",
-    "currency": null,
+    "currency": "MOP",
     "alpha2": "MO",
     "alpha3": "MAC",
     "ioc": null,
@@ -4379,7 +4379,7 @@
     ],
     "region": "Asia",
     "subregion": "Central Asia",
-    "currency": null,
+    "currency": "TMT",
     "alpha2": "TM",
     "alpha3": "TKM",
     "ioc": "TKM",
@@ -5039,10 +5039,8 @@
       "GS",
       "MG",
       "MK",
-      "MO",
       "NU",
       "PS",
-      "TM",
       "VU"
     ]
   },
@@ -5692,6 +5690,13 @@
       "MN"
     ]
   },
+  "MOP": {
+    "value": "MOP",
+    "name": "MOP",
+    "countries": [
+      "MO"
+    ]
+  },
   "MRO": {
     "value": "MRO",
     "name": "MRO",
@@ -5972,6 +5977,13 @@
     "name": "TJS",
     "countries": [
       "TJ"
+    ]
+  },
+  "TMT": {
+    "value": "TMT",
+    "name": "TMT",
+    "countries": [
+      "TM"
     ]
   },
   "TND": {
