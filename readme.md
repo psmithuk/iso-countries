@@ -1,4 +1,6 @@
-# ISO Country Codes - a little javascript helper
+# ISO Country Codes
+
+### a little javascript helper
 
 This library is a javascript version of the dataset originally published by [Andrew Patton](http://www.andrewpatton.com/countrylist.html). This dataset merges information from ISO, United Nations and the CIA World Factbook.
 
@@ -6,19 +8,13 @@ By converting the dataset to javascript objects you can access commonly required
 
 It works in both [Node.js](http://nodejs.org) and the web browser.
 
-**Important** - needs to be updated with ISO changes from the last few years.
 
 ## Installation
 
-_TODO: add package to npm_
 
 For use in Node.js:
 
-    npm install isocountries
-
-or
-
-    npm install git://github.com/psmithuk/iso-countries
+    npm install iso-countries
 
 In the browser just copy the file from `dist\countries.min.js` (skinny) or `dist\countries.js` (full-fat).
 
@@ -46,7 +42,7 @@ See tests for now. Sorry.
 
 ## License
 
-_TODO_
+MIT
 
 ## Changes to the data
 
