@@ -1,7 +1,7 @@
 {
   "name": "iso-countries",
   "description": "ISO Country and Currency Codes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Paul Smith <psmithuk@gmail.com>",
   "private": false,
   "engines": {
@@ -19,7 +19,10 @@
     "mocha": "*",
     "should": "*"
   },
-  "repository": "git://github.com/psmithuk/iso-countries",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psmithuk/iso-countries"
+  },
   "directories": {
     "doc": "./doc",
     "lib": "./lib"
@@ -27,5 +30,6 @@
   "scripts": {
     "start": "make build",
     "test": "make test"
-  }
+  },
+  "license": "MIT"
 }
