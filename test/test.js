@@ -98,6 +98,11 @@ describe('ISO Country find methods', function() {
     iso.getSimpleCountryList().pop().should.be.eql({ value: 'AX', name: 'Åland Islands' });
   });
 
+  it('should have a `getAllISOCodes` function', function() {
+    iso.getAllISOCodes.should.be.an.instanceOf(Function);
+    iso.getAllISOCodes().should.be.an.instanceOf(Array).with.length(246);
+  })
+
 });
 
 describe('ISO Currencies find methods', function() {
@@ -109,7 +114,6 @@ describe('ISO Currencies find methods', function() {
   });
 
 });
-
 
 describe('ISO Countries have optional common names', function() {
 
