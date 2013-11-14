@@ -1,7 +1,7 @@
 {
   "name": "iso-countries",
   "description": "ISO Country and Currency Codes",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Paul Smith <psmithuk@gmail.com>",
   "private": false,
   "engines": {
