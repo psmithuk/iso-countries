@@ -22,7 +22,7 @@ var lines = [];
 
 fs.readFile(inputfile, function(err, data) {
 
-  var countries = yaml.load(data);
+  var countries = yaml.load(data.toString());
 
   // populate objects
   _.each(countries, function(country, key) {
