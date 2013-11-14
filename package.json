@@ -13,7 +13,8 @@
     "request": "*",
     "underscore": "1.x.x",
     "uglify-js": "",
-    "js-yaml": ""
+    "js-yaml": "",
+    "should": "~2.1.0"
   },
   "devDependencies": {
     "mocha": "*",
